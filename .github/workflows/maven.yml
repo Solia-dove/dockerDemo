@@ -33,6 +33,6 @@ jobs:
         tags: latestv1
         registry: docker.io
         dockerfile: Dockerfile
-        username: Soleyana
+        username: soleyana
         password: solia@2112
 
