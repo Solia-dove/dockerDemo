@@ -29,12 +29,12 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: muluadam/soli-ea-demo
-        tags: latest
+        image: soleyana/ea-demo
+        tags: latestV
         registry: docker.io
         dockerfile: Dockerfile
-        username: muluadam
-        password: Aman@219@dh
+        username: soleyana
+        password: solia@2112
 
 
 
