@@ -30,11 +30,11 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: soleyana/ea-demo
-        tags: latestV
+        tags: latest-v-2.0
         registry: docker.io
         dockerfile: Dockerfile
-        username: soleyana
-        password: solia@2112
+        username: ${{secrets.DOCKER_UN}}
+        password: ${{secrets.DOCKER_PWD}}
 
 
 
